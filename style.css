@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Outfit:wght@300;400;600&family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', 'sans-serif';
+}
+.container{
+    width: 260px;
+    height: 485px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 10px 20px 30px 30px hsl(214, 51%, 8%)
+}
+.image{
+    width: 100%;
+    position: relative;
+    transition: all 5s ease-in;
+}
+.wrapper img{
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+}
+.wrapper .eye-image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: hsl(178, 100%, 50%,0.4);
+    cursor: pointer;
+    display: none;
+    border-radius: 8px;
+}
+.eye-image div{
+    position: absolute;
+    width: 40px;
+    top: 34%;
+    left: 35%;
+    transform: translate(50%,50%);
+}
+.image:hover .eye-image{
+    display: block;
+}
+.container .intro h3{
+    color: hsl(0, 0%, 100%);
+    margin: 17px 0;
+}
+.container .intro p{
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    
+}
+.container .details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .details .etherum{
+    display: flex;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+}
+.container .details .etherum span{
+    margin-left: 6px;
+}
+.container .details .clock span{
+    margin-left: 8px;
+}
+.container .details .clock{
+    display: flex;
+    align-items: center;
+    color:hsl(215, 51%, 70%) ;
+}
+.container .line{
+    height: 1px;
+    width: 100%;
+    background-color: hsl(215, 32%, 27%);
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+.container .foot{
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.container .foot img{
+    width: 40px;
+    margin-right: 15px;
+}
+.container .foot p{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+.container .foot p span{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    margin-left:5px;
+}
+.container .foot p span:hover,.container .intro h3:hover{
+    color:hsl(178, 100%, 50%) ;
+    cursor: pointer;
+}
