@@ -13,8 +13,8 @@ body{
     font-family: 'Outfit', 'sans-serif';
 }
 .container{
-    width: 260px;
-    height: 485px;
+    width: 290px;
+    height: 515px;
     background-color: hsl(216, 50%, 16%);
     padding: 20px;
     border-radius: 18px;
